@@ -1,0 +1,71 @@
+#lezioni {
+  background-color: rgb(242, 242, 205);
+}
+
+#steps {
+  background-color: rgb(255, 255, 255);
+}
+
+#why {
+  background-color: rgb(242, 242, 205);
+}
+
+#why .col-xs-12 img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img {
+  height: 100px;
+  margin-top: 20px;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+  img {
+    height: 150px;
+  }
+}
+
+
+@media all and (min-width: 992px) {
+
+  #lezioni {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #steps {
+    background-color: rgb(249, 249, 249);
+    margin-top: 100px;
+  }
+
+  #why {
+    background-color: rgb(249, 249, 249);
+    margin-top: 100px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+}
